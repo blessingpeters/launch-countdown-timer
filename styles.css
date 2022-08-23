@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Red Hat Text', sans-serif;
-    background: url(../launch-countdown-timer-main/images/bg-stars.svg), linear-gradient(hsl(234, 17%, 12%), hsl(235, 16%, 14%),hsl(236, 21%, 26%))no-repeat;
+    background: url(images/bg-stars.svg), linear-gradient(hsl(234, 17%, 12%), hsl(235, 16%, 14%),hsl(236, 21%, 26%))no-repeat;
     color: #fff;   
 }
 main {
@@ -75,7 +75,7 @@ h2 {
     justify-content: center;
     align-items: center;    
     height: 200px;
-    background-image: url(../launch-countdown-timer-main/images/pattern-hills.svg);
+    background-image: url(images/pattern-hills.svg);
     background-position:  bottom;
     background-repeat: no-repeat;
 }
