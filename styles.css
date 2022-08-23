@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Red Hat Text', sans-serif;
+    background: url(../launch-countdown-timer-main/images/bg-stars.svg), linear-gradient(hsl(234, 17%, 12%), hsl(235, 16%, 14%),hsl(236, 21%, 26%))no-repeat;
+    color: #fff;   
+}
+main {
+    padding: 7% 10%;
+    text-align: center;
+} 
+h1, p {
+    letter-spacing: 5px;
+}
+#timer-container{
+    padding: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timer-box{
+    margin: 0 10px;
+}
+.timer-box p{
+    font-family: 'Red Hat Text', sans-serif;
+    color: hsl(237, 18%, 59%);
+}
+.timer {
+    position: relative;
+    width: 120px;
+    background: linear-gradient(hsl(237, 20%, 19%)50%, hsl(236, 21%, 26%)50%);
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 10px 2px -2px rgba(0, 0, 0, 0.377);
+    padding: 10px 15px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 68px;
+    background: -webkit-linear-gradient(hsl(345, 89%, 63%)50%, hsl(345, 95%, 68%)50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+
+.timer::before {
+    position: absolute;
+    content: " ";
+    background-color: hsl(235, 16%, 14%);
+    width: 6%;
+    height: 10%;
+    top: 45%;
+    left: 0px;
+    border-radius: 0 100% 100% 0%; 
+}
+.timer::after {
+    position: absolute;
+    content: " ";
+    background-color: hsl(235, 16%, 14%);
+    width: 6%;
+    height: 10%;
+    top: 45%;
+    right: 0px;
+    border-radius: 100% 0 0 100%;
+}
+
+.footer {
+    position: relative;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 200px;
+    background-image: url(../launch-countdown-timer-main/images/pattern-hills.svg);
+    background-position:  bottom;
+    background-repeat: no-repeat;
+}
+.links a{
+    margin: 0 20px;
+}
+a:hover img{
+    color: hsl(345, 95%, 68%);
+}
+
+@media (max-width: 500px){
+    body{
+        width: 100%;
+        height: 100%;  
+    }
+
+    main {
+        margin: 20% 0;
+
+    } 
+    h1 {
+        font-size: 20px;
+
+    }
+    #timer-container{
+        padding: 7% 0;
+        margin: 13% 0;
+    }
+    
+    .timer {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .timer-box p{
+        font-size: 9px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    
+}
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
