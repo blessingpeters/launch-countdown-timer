@@ -5,7 +5,8 @@
 }
 body{
     font-family: 'Red Hat Text', sans-serif;
-    background: url(images/bg-stars.svg), linear-gradient(hsl(234, 17%, 12%), hsl(235, 16%, 14%),hsl(236, 21%, 26%))no-repeat;
+    background: url(images/bg-stars.svg), linear-gradient(hsl(234.5,15.9%,13.5%)0%, hsl(275.3,23.3%,14.3%)97%, hsl(277.9,26.8%,13.9%)100%);
+    
     color: #fff;   
 }
 main {
